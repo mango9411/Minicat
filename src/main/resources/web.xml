@@ -6,8 +6,18 @@
         <servlet-class>server.MangoServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>mango2</servlet-name>
+        <servlet-class>server.MangoServlet2</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>mango</servlet-name>
         <url-pattern>/mango</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>mango2</servlet-name>
+        <url-pattern>/mango2</url-pattern>
     </servlet-mapping>
 </web-app>
